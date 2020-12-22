@@ -7,10 +7,11 @@ function Header() {
     const closeMobileMenu = () => setClick(false)
     let navLinks = document.getElementsByClassName('nav-item');
     for (let i = 0; i < navLinks.length; i++) {
-        navLinks[i].addEventListener("click", function() {
+        navLinks[i].addEventListener("click", function(e) {
             let curr = document.getElementsByClassName('active');
-            curr[0].className= 'nav-item';
-            this.className += "active";
+            curr[0].className= 'nav-links';
+            this.children[0].className += " active";
+
         });
     }
     return (
@@ -29,18 +30,18 @@ function Header() {
                         <i className={click ? "fas fa-times" : "fas fa-bars"}/>
                     </div>
                     <ul className={click ? "nav-menu-active" : "nav-menu"}>
-                        <li className={'nav-item'} onClick={updateActive(1)}>
-                            <Link to={"/"} className={"nav-links " + (activePage === 1 ? "active" : "")} onClick={closeMobileMenu}>
+                        <li className={'nav-item'}>
+                            <Link to={"/"} className={"nav-links active"} onClick={closeMobileMenu}>
                                 Me!
                             </Link>
                         </li>
-                        <li className={'nav-item'} onClick={updateActive(2)}>
-                            <Link to={"/skills"} className={"nav-links " + (activePage === 2 ? "active" : "")} onClick={closeMobileMenu}>
+                        <li className={'nav-item'}>
+                            <Link to={"/skills"} className={"nav-links"} onClick={closeMobileMenu}>
                                 Skills
                             </Link>
                         </li>
-                        <li className={'nav-item'} onClick={updateActive(3)}>
-                            <Link to={"/timeline"} className={"nav-links " + (activePage === 3 ? "active" : "")} onClick={closeMobileMenu}>
+                        <li className={'nav-item'}>
+                            <Link to={"/timeline"} className={"nav-links"} onClick={closeMobileMenu}>
                                 Timeline
                             </Link>
                         </li>
