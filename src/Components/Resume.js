@@ -1,4 +1,4 @@
-let resume = {
+let resumeData = {
     "imageUrl" : "",
     "name" : "Tejas Pradeep",
     "role" : "Junior at Georgia Tech, BSCS",
@@ -30,4 +30,4 @@ let resume = {
         }
     ]
 }
-export default resume;
+export default resumeData;
