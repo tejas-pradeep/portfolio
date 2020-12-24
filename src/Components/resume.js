@@ -2,7 +2,9 @@ let resume = {
     "imageUrl" : "",
     "name" : "Tejas Pradeep",
     "role" : "Junior at Georgia Tech, BSCS",
-    "linkedIn_ID" : "tejas-pradeep",
+    "linkedIn_ID" : "https://www.linkedin.com/in/tejas-pradeep",
+    "email" : "rptejas@gatech.edu",
+    "tel_number" : "+1 512-665-0719",
     "aboutMe" : "",
     "socials" : [{
         "name" : "linkedin",
@@ -14,6 +16,11 @@ let resume = {
         "url" : "http://www.github.com/tejas-pradeep",
         "className" : "fab fa-github"
 
+    },
+    {
+        "name" : "email",
+        "url" : "rptejas@gatech.edu",
+        "className" : "fas fa-envelope"
     }],
     "address" : "Atlanta, GA",
     "website" : "",
