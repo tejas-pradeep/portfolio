@@ -7,15 +7,6 @@ import './App.css';
 
 function App() {
   return (
-      <body>
-        <Router>
-          <Header/>
-          <Switch>
-            <Route path={"/"} exact />
-
-          </Switch>
-        </Router>
-      </body>
 
   );
 }
