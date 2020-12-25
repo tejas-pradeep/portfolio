@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding all HTML for the header section">
-      <change afterPath="$PROJECT_DIR$/public/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/Header.css" beforeDir="false" />
-    </list>
+    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding in default CSS that applies to all pages." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -52,6 +46,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rptej\Projects\portfolio-website\public\css" />
       <recent name="C:\Users\rptej\Projects\website\public\Downloads" />
       <recent name="C:\Users\rptej\Projects\website\public\images" />
     </key>
@@ -90,7 +85,7 @@
       <workItem from="1608560919627" duration="821000" />
       <workItem from="1608625045116" duration="7303000" />
       <workItem from="1608737235737" duration="2585000" />
-      <workItem from="1608890441264" duration="1682000" />
+      <workItem from="1608890441264" duration="2393000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1608197664456</created>
@@ -162,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608891537899</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adding in default CSS that applies to all pages.">
+      <created>1608899351955</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608899351955</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +192,7 @@
     <MESSAGE value="Adding email to resume data map" />
     <MESSAGE value="Adding HTML to the contact section" />
     <MESSAGE value="Adding all HTML for the header section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding all HTML for the header section" />
+    <MESSAGE value="Adding in default CSS that applies to all pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding in default CSS that applies to all pages." />
   </component>
 </project>
