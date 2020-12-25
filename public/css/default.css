@@ -20,16 +20,10 @@ e. Others
 /* a. Webfonts and Icon fonts
  ------------------------------------------------------------------ */
 
-/*@import url("fonts.css");*/
-/*@import url("fontello/css/fontello.css");*/
-/*@import url("font-awesome/css/font-awesome.min.css");*/
+@import url("fonts.css");
+@import url("fontello/css/fontello.css");
+@import url("font-awesome/css/font-awesome.min.css");
 
-/* ------------------------------------------------------------------
-/* b. Reset
-      Adapted from:
-      Normalize.css - https://github.com/necolas/normalize.css/
-      HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
-/* ------------------------------------------------------------------ */
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -81,7 +75,7 @@ pre {
     word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+/*blockquote, q { quotes: &#8220 &#8220; }*/
 
 blockquote:before, blockquote:after,
 q:before, q:after {
