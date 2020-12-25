@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding in default CSS that applies to all pages." />
+    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding CSS for components">
+      <change afterPath="$PROJECT_DIR$/public/css/media-queries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Downloads/Tejas_Pradeep_Resume.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/background-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/tejas_pradeep_profile_pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +92,7 @@
       <workItem from="1608560919627" duration="821000" />
       <workItem from="1608625045116" duration="7303000" />
       <workItem from="1608737235737" duration="2585000" />
-      <workItem from="1608890441264" duration="2393000" />
+      <workItem from="1608890441264" duration="4041000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1608197664456</created>
@@ -164,7 +171,28 @@
       <option name="project" value="LOCAL" />
       <updated>1608899351955</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="installing font-awesome and fontello">
+      <created>1608899539860</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608899539860</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adding in custom fonts and more fonts in font.css">
+      <created>1608899737677</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608899737677</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Adding CSS for components">
+      <created>1608900239052</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608900239052</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +221,9 @@
     <MESSAGE value="Adding HTML to the contact section" />
     <MESSAGE value="Adding all HTML for the header section" />
     <MESSAGE value="Adding in default CSS that applies to all pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding in default CSS that applies to all pages." />
+    <MESSAGE value="installing font-awesome and fontello" />
+    <MESSAGE value="Adding in custom fonts and more fonts in font.css" />
+    <MESSAGE value="Adding CSS for components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding CSS for components" />
   </component>
 </project>

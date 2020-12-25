@@ -4,6 +4,9 @@ import About from "./Components/About";
 import Contact from "./Components/Contact";
 import resume from "./Components/resume";
 import './App.css';
+import "./css/default.css";
+import "./css/layout.css";
+import "./css/media-queries.css";
 
 
 function App() {
