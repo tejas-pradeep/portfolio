@@ -1,12 +1,18 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from './Components/Header';
-
+import Header from "./Components/Header";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import resume from "./Components/resume";
 import './App.css';
 
 
 function App() {
   return (
+      <div className={"App"}>
+          <Header resumeData={resume}/>
+          <About resumeData = {resume}/>
+          <Contact resumeData = {resume}/>
+      </div>
 
   );
 }

@@ -1,55 +1,47 @@
-import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
-import "../../public/css/Header.css";
-function Header() {
-    const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false)
-    function handleActive(newActive) {
-        // let curr = document.getElementsByClassName('active');
-        // curr[0].className= 'nav-links';
-        // newActive.children[0].className += " active";
-        console.log(newActive);
-    }
-    return (
-        <div id={'header-container'}>
-            <nav className={'navbar'}>
-                <div className={'navbar-container'}>
-                    <Link to={"/"} className={'profile-pic'}>
-                        <img src="../images/tejas_pradeep_profile_pic.jpg" alt="tejas_profile_pic"/>
-                    </Link>
-                    <div id={'contact-sm'}>
-                        <a href = "mailto: rptejas@gatech.edu"><i className="fas fa-envelope"/> rptejas@gatech.edu</a>
-                        <br/>
-                        <a href="tel:+1 512-665-0710"><i className="fas fa-p hone"/> +1 (512)665-0719</a>
-                    </div>
-                    <div className={'menu-icon'} onClick={handleClick}>
-                        <i className={click ? "fas fa-times" : "fas fa-bars"}/>
-                    </div>
-                    <ul className={click ? "nav-menu-active" : "nav-menu"}>
-                        <li className={'nav-item'} onClick={handleActive(this)}>
-                            <Link to={"/"} className={"nav-links active"} onClick={closeMobileMenu}>
-                                Me!
-                            </Link>
-                        </li>
-                        <li className={'nav-item'} onClick={handleActive(this)}>
-                            <Link to={"/skills"} className={"nav-links"} onClick={closeMobileMenu}>
-                                Skills
-                            </Link>
-                        </li>
-                        <li className={'nav-item'} onClick={handleActive(this)}>
-                            <Link to={"/timeline"} className={"nav-links"} onClick={closeMobileMenu}>
-                                Timeline
-                            </Link>
-                        </li>
-                    </ul>
-                    <a href={'../Downloads/Tejas_Pradeep_Resume.pdf'} download={"Tejas_Pradeep_Resume"}>
-                        <button id={"resume-button"}><i className={"fas fa-download"}/> Download Resume</button>
-                    </a>
-                </div>
-            </nav>
-        </div>
-    );
+import React, {Component} from "react";
 
+export default class Header extends Component {
+   render () {
+       let resumeData = this.props.resumeData;
+       return (
+         <React.Fragment>
+             <header id={"home"}>
+                 <nav id={"nav-wrap"}>
+                     <a className={"mobile-btn"} href={"#nav-wrap"} title={"Show menu"}>Show menu</a>
+                     <a className={"mobile-btn"} href={"#"} title={"Hide menu"}>Hide menu</a>
+                     <ul id={"nav"} className={"nav"}>
+                         <li className={"current"}><a className={"smoothscroll"} href={"#home"}>Home</a></li>
+                         <li><a className={"smoothscroll"} href={"#skills"}>Skills</a></li>
+                         <li><a className={"smoothscroll"} href={"#timeline"}>Timeline</a></li>
+                         <li><a className={"smoothscroll"} href={"#projects"}>Projects!</a></li>
+                         <li><a className={"smoothscroll"} href={"#contact"}>Contact Me!</a></li>
+                     </ul>
+                 </nav>
+                 <div className={"row banner"}>
+                     <div className={"banner-text"}>
+                         <h1 className={"responsive-headline"}>
+                             I am {resumeData.name}.
+                         </h1>
+                         <h3 style={{color:"white", fontFamily:"sans-serif"}}>{resumeData.aboutMe}</h3>
+                         <hr/>
+                         <ul className={"social"}>
+                             {
+                                 resumeData.socials  && resumeData.socials.map(item => {
+                                     return (
+                                         <li key={item.name}>
+                                             <a href={item.url} target={""}><i className={item.className}/></a>
+                                         </li>
+                                     )
+                                 })
+                             }
+                         </ul>
+                     </div>
+                 </div>
+                 <p className={"scroll-down"}>
+                     <a className={"smoothscroll"} href="#skills"><i className={"icon-down-circle"}/> Click to see my skills.</a>
+                 </p>
+             </header>
+         </React.Fragment>
+       );
+   }
 }
-export default Header;

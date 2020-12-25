@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding email to resume data map">
+    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding HTML to the contact section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="33a04808-bb03-4440-9d27-a9fe21a8d961" name="Default Changelist" comment="" />
+      <changelist id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding HTML to the contact section" />
       <created>1608129869129</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -87,6 +88,7 @@
       <workItem from="1608560919627" duration="821000" />
       <workItem from="1608625045116" duration="7303000" />
       <workItem from="1608737235737" duration="2585000" />
+      <workItem from="1608890441264" duration="1065000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1608197664456</created>
@@ -144,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608817773263</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding HTML to the contact section">
+      <created>1608821031326</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608821031326</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +179,7 @@
     <MESSAGE value="Removing Button.js&#10;Adding functionality for active links in the navbar" />
     <MESSAGE value="Merging home-page branch into master" />
     <MESSAGE value="Adding email to resume data map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding email to resume data map" />
+    <MESSAGE value="Adding HTML to the contact section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding HTML to the contact section" />
   </component>
 </project>
