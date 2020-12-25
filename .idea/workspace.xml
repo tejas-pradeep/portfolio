@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding CSS for components">
-      <change afterPath="$PROJECT_DIR$/public/css/media-queries.css" afterDir="false" />
+    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Reorganized project structure to maximize inbuilt minify">
+      <change afterPath="$PROJECT_DIR$/src/Downloads/Tejas_Pradeep_Resume.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/media-queries.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Downloads/Tejas_Pradeep_Resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/background-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/tejas_pradeep_profile_pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +94,7 @@
       <workItem from="1608625045116" duration="7303000" />
       <workItem from="1608737235737" duration="2585000" />
       <workItem from="1608890441264" duration="4041000" />
+      <workItem from="1608901052302" duration="713000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1608197664456</created>
@@ -192,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608900239052</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Reorganized project structure to maximize inbuilt minify">
+      <created>1608901272606</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608901272606</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +233,7 @@
     <MESSAGE value="installing font-awesome and fontello" />
     <MESSAGE value="Adding in custom fonts and more fonts in font.css" />
     <MESSAGE value="Adding CSS for components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding CSS for components" />
+    <MESSAGE value="Reorganized project structure to maximize inbuilt minify" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganized project structure to maximize inbuilt minify" />
   </component>
 </project>
