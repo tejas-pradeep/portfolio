@@ -35,6 +35,49 @@ let resume = {
             "GPA" : "3.92",
             "Major GPA" : "4.0"
         }
+    ],
+    "skillsDescription" : "",
+    "skills" : [
+        {
+            "skillname" : "Python",
+            "skillLevel" : "95%"
+        },
+        {
+            "skillname" : "Java",
+            "skillLevel" : "95%"
+        },
+        {
+            "skillname" : "JavaScript (jQuery, ReactJS, Native)",
+            "skillLevel" : "75%"
+        },
+        {
+            "skillname" : "PHP",
+            "skillLevel" : "80%"
+        },
+        {
+            "skillname" : "C++",
+            "skillLevel" : "85%"
+        },
+        {
+            "skillname" : "C",
+            "skillLevel" : "75%"
+        },
+        {
+            "skillname" : "Assembly Language",
+            "skillLevel" : "60%"
+        },
+        {
+            "skillname" : "HTML5",
+            "skillLevel" : "85%"
+        },
+        {
+            "skillname" : "CSS",
+            "skillLevel" : "80%"
+        },
+        {
+            "skillname" : "SQL (MySQL, MariaDB)",
+            "skillLevel" : "95%"
+        },
     ]
 }
 export default resume;
