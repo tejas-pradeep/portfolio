@@ -19,7 +19,7 @@ let resume = {
     },
     {
         "name" : "email",
-        "url" : "rptejas@gatech.edu",
+        "url" : "mailto:rptejas@gatech.edu",
         "className" : "fas fa-envelope"
     }],
     "address" : "Atlanta, GA",

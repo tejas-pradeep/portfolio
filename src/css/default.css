@@ -789,6 +789,9 @@ properly.
     margin-right: auto !important;
     text-align: center !important;
 }
+.smoothscroll {
+    scroll-behavior: smooth;
+}
 
 
 

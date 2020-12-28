@@ -7,6 +7,7 @@ import './App.css';
 import "./css/default.css";
 import "./css/layout.css";
 import "./css/media-queries.css";
+import Footer from "./Components/Footer";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Header resumeData={resume}/>
           <About resumeData = {resume}/>
           <Contact resumeData = {resume}/>
+          <Footer resumeData = {resume}/>
       </div>
 
   );

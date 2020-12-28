@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Reorganized project structure to maximize inbuilt minify">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Downloads/Tejas_Pradeep_Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/Downloads/Tejas_Pradeep_Resume.pdf" afterDir="false" />
+    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Fix to download resume link">
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,7 @@
       <workItem from="1608737235737" duration="2585000" />
       <workItem from="1608890441264" duration="4041000" />
       <workItem from="1608901052302" duration="1028000" />
-      <workItem from="1609161501047" duration="371000" />
+      <workItem from="1609161501047" duration="712000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1608197664456</created>
@@ -206,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608901821963</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fix to download resume link">
+      <created>1609161916714</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609161916714</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +244,7 @@
     <MESSAGE value="Adding in custom fonts and more fonts in font.css" />
     <MESSAGE value="Adding CSS for components" />
     <MESSAGE value="Reorganized project structure to maximize inbuilt minify" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganized project structure to maximize inbuilt minify" />
+    <MESSAGE value="Fix to download resume link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix to download resume link" />
   </component>
 </project>
