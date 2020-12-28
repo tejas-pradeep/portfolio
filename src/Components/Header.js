@@ -15,7 +15,7 @@ export default class Header extends Component {
                          <li><a className={"smoothscroll"} href={"#timeline"}>Timeline</a></li>
                          <li><a className={"smoothscroll"} href={"#projects"}>Projects!</a></li>
                          <li><a className={"smoothscroll"} href={"#contact"}>Contact Me!</a></li>
-                         <li><a href={"../Downloads/Tejas_Pradeep_Resume.pdf"} download={"Tejas_Pradeep_Resume"}>Download Resume <i className={"fas fa-download"}/></a></li>
+                         <li><a href={process.env.PUBLIC_URL + "/Downloads/Tejas_Pradeep_Resume.pdf"} download={"Tejas_Pradeep_Resume.pdf"}>Download Resume <i className={"fas fa-download"}/></a></li>
                      </ul>
                  </nav>
                  <div className={"row banner"}>
