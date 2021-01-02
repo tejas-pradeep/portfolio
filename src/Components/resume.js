@@ -5,7 +5,11 @@ let resume = {
     "linkedIn_ID" : "https://www.linkedin.com/in/tejas-pradeep",
     "email" : "rptejas@gatech.edu",
     "tel_number" : "+1 512-665-0719",
-    "aboutMe" : "",
+    "aboutMe" : "Enthusiastic student of computer science with a passion to explore the application of the sciences, the power of technology & unleash immense opportunities." +
+        " I am passionate about application of Artificial Intelligence & Information Networks in industry. " +
+        "My experience at agile growth oriented environments has provided me the opportunity to put my coding knowledge to enhance user experiences and" +
+        " contribute towards client critical projects. " +
+        "I am eager to pursue opportunities that stretch my interests in full stack development and in Natural Language Processing research. ",
     "socials" : [{
         "name" : "linkedin",
         "url" : "https://www.linkedin.com/in/tejas-pradeep",

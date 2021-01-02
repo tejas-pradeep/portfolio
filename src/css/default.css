@@ -44,6 +44,7 @@ time, mark, audio, video {
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
+    scroll-behavior: smooth;
 }
 
 article,aside,details,figcaption,figure,
@@ -789,10 +790,6 @@ properly.
     margin-right: auto !important;
     text-align: center !important;
 }
-.smoothscroll {
-    scroll-behavior: smooth;
-}
-
 
 
 

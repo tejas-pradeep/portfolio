@@ -3,6 +3,9 @@ import React, {Component} from "react";
 export default class Header extends Component {
    render () {
        let resumeData = this.props.resumeData;
+       function handleCurrent(e) {
+
+       }
        return (
          <React.Fragment>
              <header id={"home"}>
@@ -10,12 +13,12 @@ export default class Header extends Component {
                      <a className={"mobile-btn"} href={"#nav-wrap"} title={"Show menu"}>Show menu</a>
                      <a className={"mobile-btn"} href={"#"} title={"Hide menu"}>Hide menu</a>
                      <ul id={"nav"} className={"nav"}>
-                         <li className={"current"}><a className={"smoothscroll"} href={"#home"}>Home</a></li>
-                         <li><a className={"smoothscroll"} href={"#skills"}>Skills</a></li>
-                         <li><a className={"smoothscroll"} href={"#timeline"}>Timeline</a></li>
-                         <li><a className={"smoothscroll"} href={"#projects"}>Projects!</a></li>
-                         <li><a className={"smoothscroll"} href={"#contact"}>Contact Me!</a></li>
-                         <li><a href={process.env.PUBLIC_URL + "/Downloads/Tejas_Pradeep_Resume.pdf"} download={"Tejas_Pradeep_Resume.pdf"}>Download Resume <i className={"fas fa-download"}/></a></li>
+                         <li onClick={handleCurrent}><a className={"current"} href={"#home"}>Home</a></li>
+                         <li onClick={handleCurrent}><a href={"#skills"}>Skills</a></li>
+                         <li onClick={handleCurrent}><a href={"#timeline"}>Timeline</a></li>
+                         <li onClick={handleCurrent}><a href={"#projects"}>Projects!</a></li>
+                         <li onClick={handleCurrent}><a href={"#contact"}>Contact Me!</a></li>
+                         <li onClick={handleCurrent}><a href={process.env.PUBLIC_URL + "/Downloads/Tejas_Pradeep_Resume.pdf"} download={"Tejas_Pradeep_Resume.pdf"}>Download Resume <i className={"fas fa-download"}/></a></li>
                      </ul>
                  </nav>
                  <div className={"row banner"}>
@@ -23,7 +26,7 @@ export default class Header extends Component {
                          <h1 className={"responsive-headline"}>
                              I am {resumeData.name}.
                          </h1>
-                         <h3 style={{color:"white", fontFamily:"sans-serif"}}>{resumeData.aboutMe}</h3>
+                         <h3 style={{color:"white", fontFamily:"sans-serif"}}>{resumeData.role}</h3>
                          <hr/>
                          <ul className={"social"}>
                              {
@@ -38,9 +41,9 @@ export default class Header extends Component {
                          </ul>
                      </div>
                  </div>
-                 <p className={"scroll-down"}>
-                     <a className={"smoothscroll"} href="#skills"><i className={"icon-down-circle"}/> Click to see my skills.</a>
-                 </p>
+                 <p className="scrolldown">
+                     <a href="#about"><i className="icon-down-circle"></i></a>
+                </p>
              </header>
          </React.Fragment>
        );
