@@ -4,6 +4,8 @@ export default class Header extends Component {
    render () {
        let resumeData = this.props.resumeData;
        function handleCurrent(e) {
+           document.getElementsByClassName("current")[0].className = "";
+           e.target.className = "current";
 
        }
        return (
