@@ -3,6 +3,7 @@ import Header from "./Components/Header";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Skills from "./Components/Skills";
+import Timeline from "./Components/Timeline";
 import resume from "./Components/resume";
 import './App.css';
 import "./css/default.css";
@@ -17,6 +18,7 @@ function App() {
           <Header resumeData={resume}/>
           <About resumeData = {resume}/>
           <Skills resumeData={resume}/>
+          <Timeline resumeData={resume}/>
           <Contact resumeData = {resume}/>
           <Footer resumeData = {resume}/>
       </div>
