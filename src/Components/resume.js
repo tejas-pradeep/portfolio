@@ -82,6 +82,18 @@ let resume = {
             "skillname" : "SQL (MySQL, MariaDB)",
             "skillLevel" : "95%"
         },
+    ],
+    "timelineData" : [
+        {
+            "text" : "Finished high school.",
+            "date" : "March 2018",
+            "category" : {
+                "tag": "school",
+                "color": "#018f69"
+            },
+            "link" : {},
+            "image_url" : "public_images/tejas_pradeep_profile_pic.jpg"
+        }
     ]
 }
 export default resume;

@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding in HTML and CSS for the skills section">
-      <change afterPath="$PROJECT_DIR$/public/public_images/tejas_pradeep_profile_pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/background-image.png" afterDir="false" />
+    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Fixing header current coloring.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Timeline.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/resume.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/default.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/media-queries.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -99,7 +98,7 @@
       <workItem from="1608890441264" duration="4041000" />
       <workItem from="1608901052302" duration="1028000" />
       <workItem from="1609161501047" duration="3919000" />
-      <workItem from="1609610039215" duration="2811000" />
+      <workItem from="1609610039215" duration="6000000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1608197664456</created>
@@ -234,7 +233,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609164820282</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Adding in HTML and CSS for the About.js section">
+      <created>1609612955188</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609612955189</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fixing header current coloring.">
+      <created>1609613086097</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1609613086097</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +283,8 @@
     <MESSAGE value="Fix to download resume link" />
     <MESSAGE value="Html added for Footer.js" />
     <MESSAGE value="Adding in HTML and CSS for the skills section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding in HTML and CSS for the skills section" />
+    <MESSAGE value="Adding in HTML and CSS for the About.js section" />
+    <MESSAGE value="Fixing header current coloring." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing header current coloring." />
   </component>
 </project>
