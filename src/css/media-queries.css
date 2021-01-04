@@ -285,23 +285,32 @@
     #contact .header-col { padding-top: 0; }
     #contact .header-col h1:before { content: none;	}
     #contact .section-head p.lead { text-align: center;}
+    .contact-info{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+
 
     /* form */
-    #contact label {
-        float: none;
-        width: 100%;
-    }
-    #contact input,
-    #contact textarea,
-    #contact select {
-        margin-bottom: 6px;
-        width: 100%;
-    }
-    #contact button.submit { margin: 30px 0 24px 0; }
-    #message-warning, #message-success {
-        width: 100%;
-        margin-left: 0;
-    }
+    /*#contact label {*/
+    /*    float: none;*/
+    /*    width: 100%;*/
+    /*}*/
+    /*#contact input,*/
+    /*#contact textarea,*/
+    /*#contact select {*/
+    /*    margin-bottom: 6px;*/
+    /*    width: 100%;*/
+    /*}*/
+    /*#contact button.submit { margin: 30px 0 24px 0; }*/
+    /*#message-warning, #message-success {*/
+    /*    width: 100%;*/
+    /*    margin-left: 0;*/
+    /*}*/
 
     /* Timeline
    ------------------------------------------------------------------------ */
