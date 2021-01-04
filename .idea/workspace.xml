@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Fixing header current coloring.">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding CSS for the contacts section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/media-queries.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +95,7 @@
       <workItem from="1608901052302" duration="1028000" />
       <workItem from="1609161501047" duration="3919000" />
       <workItem from="1609610039215" duration="6000000" />
-      <workItem from="1609768297664" duration="2137000" />
+      <workItem from="1609768297664" duration="5888000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1608197664456</created>
@@ -246,7 +244,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609613086097</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Adding HTML for the contacts section">
+      <created>1609787075755</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1609787075755</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Adding CSS for the contacts section">
+      <created>1609787119253</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1609787119253</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +296,8 @@
     <MESSAGE value="Adding in HTML and CSS for the skills section" />
     <MESSAGE value="Adding in HTML and CSS for the About.js section" />
     <MESSAGE value="Fixing header current coloring." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing header current coloring." />
+    <MESSAGE value="Adding HTML for the contacts section" />
+    <MESSAGE value="Adding CSS for the contacts section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding CSS for the contacts section" />
   </component>
 </project>

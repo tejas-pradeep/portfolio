@@ -19,7 +19,7 @@ function App() {
           <About resumeData = {resume}/>
           <Skills resumeData={resume}/>
           <Timeline resumeData={resume}/>
-          <Contact resumeData = {resume}/>
+          <Contact/>
           <Footer resumeData = {resume}/>
       </div>
 
