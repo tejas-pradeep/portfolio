@@ -51,7 +51,7 @@ let resume = {
             "skillLevel" : "95%"
         },
         {
-            "skillname" : "JavaScript (jQuery, ReactJS, Native)",
+            "skillname" : "JavaScript",
             "skillLevel" : "75%"
         },
         {
@@ -68,7 +68,7 @@ let resume = {
         },
         {
             "skillname" : "Assembly Language",
-            "skillLevel" : "60%"
+            "skillLevel" : "69%"
         },
         {
             "skillname" : "HTML5",

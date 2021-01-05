@@ -18,7 +18,9 @@ export default class Skills extends Component {
                                             <li>
                                                 <span className={`bar-expand`} style={{width: item.skillLevel}}/>
                                                 <em>
-                                                    {item.skillname}
+                                                    <span>
+                                                        {item.skillname}
+                                                    </span>
                                                 </em>
                                             </li>
                                         )

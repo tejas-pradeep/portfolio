@@ -236,7 +236,7 @@ ul#nav a.current { color: #F06000; }
 
 .main-content {
     background: #fff;
-    padding-top: 90px;
+    padding-top: 72px;
     padding-bottom: 72px;
     overflow: hidden;
 }
@@ -296,31 +296,36 @@ ul#nav a.current { color: #F06000; }
 }
 .bars li {
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
     background: #ccc;
-    height: 42px;
+    height: 30px;
     border-radius: 3px;
 }
 .bars li em {
     font: 15px 'opensans-bold', sans-serif;
-    color: #313131;
+    color: #a7a7a7;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: normal;
     position: relative;
-    top: -36px;
+    z-index: auto;
+    padding-left: 10px;
+}
+.bars li em span {
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
 }
 .bar-expand {
     position: absolute;
     left: 0;
     top: 0;
-
     margin: 0;
     padding-right: 24px;
     background: #313131;
     display: inline-block;
-    height: 42px;
-    line-height: 42px;
+    height: 30px;
+    line-height: 30px;
     border-radius: 3px 0 0 3px;
     -moz-animation: 2s ease;
     -webkit-animation: 2s ease;
@@ -945,7 +950,7 @@ ul#nav a.current { color: #F06000; }
     width: 50%;
 }
 
-.timeline-item:nth-child(odd) {
+.timeline-item:nth-child(even) {
     align-self: flex-end;
     justify-content: flex-start;
     padding-left: 30px;
@@ -976,12 +981,12 @@ ul#nav a.current { color: #F06000; }
     height: 15px;
 }
 
-.timeline-item:nth-child(odd) .timeline-item-content {
+.timeline-item:nth-child(even) .timeline-item-content {
     text-align: left;
     align-items: flex-start;
 }
 
-.timeline-item:nth-child(odd) .timeline-item-content::after {
+.timeline-item:nth-child(even) .timeline-item-content::after {
     right: auto;
     left: -7.5px;
     box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -998,7 +1003,7 @@ ul#nav a.current { color: #F06000; }
     text-transform: uppercase;
 }
 
-.timeline-item:nth-child(odd) .timeline-item-content .tag {
+.timeline-item:nth-child(even) .timeline-item-content .tag {
     left: auto;
     right: 5px;
 }
@@ -1039,7 +1044,7 @@ ul#nav a.current { color: #F06000; }
     z-index: 100;
 }
 
-.timeline-item:nth-child(odd) .timeline-item-content .circle {
+.timeline-item:nth-child(even) .timeline-item-content .circle {
     right: auto;
     left: -40px;
 }
