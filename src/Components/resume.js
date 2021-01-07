@@ -85,14 +85,37 @@ let resume = {
     ],
     "timelineData" : [
         {
-            "text" : "Finished high school.",
-            "date" : "March 2018",
+            "title" : "Shipa Freight",
+            "text" : "",
+            "date" : "Summer 2019",
             "category" : {
-                "tag": "school",
+                "tag": "Internship",
                 "color": "#018f69"
             },
-            "link" : {},
-            "image_url" : "public_images/tejas_pradeep_profile_pic.jpg"
+            "link" : {url:"https://www.shipafreight.com/", text : "Shipa Freight"},
+            "image_url" : "public_images/Shipa_Freight.PNG"
+        },
+        {
+            "title" : "Automated Algorithm Design Research Project",
+            "text" : "",
+            "date" : "Aug 2019 - Dec 2020",
+            "category" : {
+                "tag": "Research",
+                "color": "#1ecbe1"
+            },
+            "link" : {url : "https://www.vip.gatech.edu/teams/automated-algorithm-design", text : "Automated Algorithm Design Research Team"},
+            "image_url" : "public_images/AAD_VIP.PNG"
+        },
+        {
+            "title" : "Teaching Assistant: Object Oriented Programming",
+            "text" : "",
+            "date" : "Jan 2020 - Present",
+            "category" : {
+                "tag": "Teaching Assistant",
+                "color": "#ef8110"
+            },
+            "link" : {url:"https://www.cc.gatech.edu/~stasko/1331/", text:"CS 1331 - Object Oriented Programming"},
+            "image_url" : "public_images/CS1331.PNG"
         }
     ]
 }

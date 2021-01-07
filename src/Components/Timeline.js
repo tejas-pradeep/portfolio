@@ -12,6 +12,7 @@ export default class Timeline extends Component {
                         <time>{data.date}</time>
                         <div className={"timeline-body"}>
                             <img src={process.env.PUBLIC_URL + data.image_url} alt=""/>
+                            <p><b>{data.title}</b></p>
                             <p>{data.text}</p>
                         </div>
                         {data.link && (
