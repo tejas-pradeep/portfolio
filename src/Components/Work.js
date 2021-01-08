@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Slider from "react-animated-slider/src";
 import "react-animated-slider/build/horizontal.css";
 import "normalize.css/normalize.css";
+import "../css/slider-animations.css";
 
 export default class Work extends Component {
     render () {

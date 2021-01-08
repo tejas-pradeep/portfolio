@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Removing the contact section.">
-      <change afterPath="$PROJECT_DIR$/src/Components/Work.js" afterDir="false" />
+    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding in work experience section with slider carousel">
+      <change afterPath="$PROJECT_DIR$/src/css/slider-animations.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/resume.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Work.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/media-queries.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -103,7 +102,7 @@
       <workItem from="1609844830544" duration="4309000" />
       <workItem from="1610011982130" duration="1293000" />
       <workItem from="1610101936155" duration="785000" />
-      <workItem from="1610102732818" duration="3728000" />
+      <workItem from="1610102732818" duration="6696000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1608197664456</created>
@@ -280,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610103083835</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Adding in work experience section with slider carousel">
+      <created>1610115051783</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1610115051783</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +328,7 @@
     <MESSAGE value="Adding CSS for the contacts section" />
     <MESSAGE value="Small CSS tweaks to skills page." />
     <MESSAGE value="Removing the contact section." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing the contact section." />
+    <MESSAGE value="Adding in work experience section with slider carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding in work experience section with slider carousel" />
   </component>
 </project>

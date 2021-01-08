@@ -247,27 +247,10 @@
     .popup-modal {	max-width: 85%; }
 
 
-    /* Testimonials Section
+    /* Work Section
     ----------------------------------------------------------------------- */
-    #testimonials .text-container { text-align: center; }
-    #testimonials h1 {
-        font: 16px/24px 'opensans-bold', sans-serif;
-        text-align: center;
-        margin-bottom: 30px;
-        text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-    }
-    #testimonials h1 span { display: block; }
-    #testimonials .header-col h1:before { content: none; }
-    #testimonials blockquote { padding-bottom: 24px; }
-    #testimonials blockquote p {
-        font-size: 20px;
-        line-height: 42px;
-    }
-
-    /* Control Nav */
-    .flex-control-nav {
-        text-align: center;
-        margin-left: -30px;
+    .slider-wrapper, .slide {
+        height: calc(80vh - 75px);
     }
 
 
@@ -398,8 +381,14 @@
     header .social { font-size: 20px;}
     header .social li { margin: 0 6px; }
 
-    /* footer
+    /* work
     ------------------------------------------------------------------------ */
+    .slider-wrapper, .slide {
+        height: calc(100vh - 75px);
+    }
+    .slider-content .inner h1 {
+        font-size: 32px;
+    }
 
     /* social links */
     footer .social-links { font-size: 20px; }
