@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Small CSS tweaks to skills page.">
-      <change afterPath="$PROJECT_DIR$/public/public_images/AAD_VIP.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public_images/CS1331.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public_images/Sametunes.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public_images/Shipa_Freight.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Timeline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/resume.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +97,8 @@
       <workItem from="1609768297664" duration="5888000" />
       <workItem from="1609844830544" duration="4309000" />
       <workItem from="1610011982130" duration="1293000" />
+      <workItem from="1610101936155" duration="785000" />
+      <workItem from="1610102732818" duration="331000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1608197664456</created>
