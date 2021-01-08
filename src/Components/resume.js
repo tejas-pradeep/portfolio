@@ -83,6 +83,16 @@ let resume = {
             "skillLevel" : "95%"
         },
     ],
+    "work" : [
+        {
+            "title" : "SameTunes LLC",
+            "description" : "Hello there",
+            "button" : "View More",
+            "button_url" : "www.sametunes.com",
+            "image" : "",
+            "image_url" : ""
+        }
+    ],
     "timelineData" : [
         {
             "title" : "Shipa Freight",
