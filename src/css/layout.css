@@ -244,12 +244,12 @@ ul#nav a.current { color: #F06000; }
 .main-content a, .main-content a:visited  { color: #11ABB0; }
 .main-content a:hover, .main-content a:focus { color: #313131; }
 
-.main-content h1 {
+.header-col > h1 {
     font: 18px/24px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.main-content h1 span {
+.header-col > h1 span {
     border-bottom: 3px solid #11ABB0;
     padding-bottom: 6px;
 }

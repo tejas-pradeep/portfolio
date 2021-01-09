@@ -249,8 +249,8 @@
 
     /* Work Section
     ----------------------------------------------------------------------- */
-    .slider-wrapper, .slide {
-        height: calc(80vh - 75px);
+    #work {
+        display: none;
     }
 
 

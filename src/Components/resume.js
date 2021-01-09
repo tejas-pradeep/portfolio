@@ -86,6 +86,22 @@ let resume = {
     "work" : [
         {
             "employer" : "SameTunes LLC",
+            "position" : "Head of API Design",
+            "description" : "Hello there",
+            "button" : "View More",
+            "button_url" : "www.sametunes.com",
+            "image" : "public_images/tejas_pradeep_profile_pic.jpg"
+        },
+        {
+            "employer" : "SameTunes LLC",
+            "position" : "",
+            "description" : "Hello there",
+            "button" : "View More",
+            "button_url" : "www.sametunes.com",
+            "image" : "public_images/Shipa_Freight.PNG"
+        },
+        {
+            "employer" : "SameTunes LLC",
             "position" : "",
             "description" : "Hello there",
             "button" : "View More",
