@@ -85,12 +85,12 @@ let resume = {
     ],
     "work" : [
         {
-            "title" : "SameTunes LLC",
+            "employer" : "SameTunes LLC",
+            "position" : "",
             "description" : "Hello there",
             "button" : "View More",
             "button_url" : "www.sametunes.com",
-            "image" : "",
-            "image_url" : ""
+            "image" : "public_images/Shipa_Freight.PNG"
         }
     ],
     "timelineData" : [
