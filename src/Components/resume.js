@@ -2,6 +2,7 @@ let resume = {
     "imageUrl" : "",
     "name" : "Tejas Pradeep",
     "role" : "Junior at Georgia Tech, BSCS",
+    "profile_pic" : "public_images/tejas_pradeep_profile_pic.jpg",
     "linkedIn_ID" : "https://www.linkedin.com/in/tejas-pradeep",
     "email" : "rptejas@gatech.edu",
     "tel_number" : "+1 512-665-0719",

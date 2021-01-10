@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Fixing flickity issue">
+    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Chnaging image paths">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Timeline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/resume.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
       <workItem from="1609844830544" duration="4309000" />
       <workItem from="1610011982130" duration="1293000" />
       <workItem from="1610101936155" duration="785000" />
-      <workItem from="1610102732818" duration="18989000" />
+      <workItem from="1610102732818" duration="20122000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1608197664456</created>
@@ -306,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610202794679</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Chnaging image paths">
+      <created>1610281112571</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1610281112571</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +332,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Working on header :  Adding in nav-links" />
     <MESSAGE value="Adding CSS for the navabr" />
     <MESSAGE value="Removing Button.js&#10;Adding functionality for active links in the navbar" />
     <MESSAGE value="Merging home-page branch into master" />
@@ -350,6 +356,7 @@
     <MESSAGE value="Adding in CSS for fancy carousel" />
     <MESSAGE value="Flickity is currently broken" />
     <MESSAGE value="Fixing flickity issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing flickity issue" />
+    <MESSAGE value="Chnaging image paths" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chnaging image paths" />
   </component>
 </project>
