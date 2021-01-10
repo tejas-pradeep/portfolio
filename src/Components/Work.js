@@ -29,7 +29,7 @@ function Work({resumeData}) {
                                         <div className="two--col">
                                             <div className="is-item has--img">
                                                 <figure className="the-img">
-                                                    <img src={item.image} alt=""/>
+                                                    <img src={process.env.PUBLIC_URL + "/" + item.image} alt=""/>
                                                 </figure>
                                             </div>
                                             <div className="is-item has--content">

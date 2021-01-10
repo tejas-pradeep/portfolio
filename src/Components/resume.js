@@ -110,7 +110,7 @@ let resume = {
     "timelineData" : [
         {
             "title" : "Shipa Freight",
-            "text" : "",
+            "text" : "Concepts: Python, Feature Engineering, Data Manipulation, Numpy, Scikit-learn",
             "date" : "Summer 2019",
             "category" : {
                 "tag": "Internship",
@@ -121,7 +121,7 @@ let resume = {
         },
         {
             "title" : "Automated Algorithm Design Research Project",
-            "text" : "",
+            "text" : "Concepts: Genetic Algorithms, NLP, Research Principles, Machine Learning",
             "date" : "Aug 2019 - Dec 2020",
             "category" : {
                 "tag": "Research",
@@ -131,15 +131,26 @@ let resume = {
             "image_url" : "public_images/AAD_VIP.PNG"
         },
         {
-            "title" : "Teaching Assistant: Object Oriented Programming",
-            "text" : "",
+            "title" : "TA: Object Oriented Programming",
+            "text" : "Concepts: Java, Object Oriented Programming, Project Organization and Creating, Student Management",
             "date" : "Jan 2020 - Present",
             "category" : {
                 "tag": "Teaching Assistant",
                 "color": "#ef8110"
             },
             "link" : {url:"https://www.cc.gatech.edu/~stasko/1331/", text:"CS 1331 - Object Oriented Programming"},
-            "image_url" : "public_images/CS1331.PNG"
+            "image_url" : "public_images/java.PNG"
+        },
+        {
+            "title" : "SameTunes LLC",
+            "text" : "Concepts: PHP, Twitter Bootstrap, SQL, SCSS, API Design, Agile Development, Website Design",
+            "date" : "May 2020 - Aug 2020",
+            "category" : {
+                "tag": "Internship",
+                "color": "#018f69"
+            },
+            "link" : {url:"https://www.sametunes.com", text:"SameTunes: Social Music"},
+            "image_url" : "public_images/Sametunes.PNG"
         }
     ]
 }
