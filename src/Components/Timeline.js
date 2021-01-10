@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import "../css/timeline-card.css";
 export default class Timeline extends Component {
     render () {
         let resumeData = this.props.resumeData;
@@ -10,11 +11,18 @@ export default class Timeline extends Component {
                             {data.category.tag}
                         </span>
                         <time>{data.date}</time>
-                        <div className={"timeline-body"}>
+                        <div className="timeline-card">
                             <img src={process.env.PUBLIC_URL + "/" + data.image_url} alt=""/>
-                            <p><b>{data.title}</b></p>
-                            <p>{data.text}</p>
+                                <div className="container">
+                                    <h2><b>{data.title}</b></h2>
+                                    <p>{data.text}</p>
+                                </div>
                         </div>
+                        {/*<div className={"timeline-body"}>*/}
+                        {/*    <img src={process.env.PUBLIC_URL + "/" + data.image_url} alt=""/>*/}
+                        {/*    <p><b>{data.title}</b></p>*/}
+                        {/*    <p>{data.text}</p>*/}
+                        {/*</div>*/}
                         {data.link && (
                             <a
                                 href={data.link.url}

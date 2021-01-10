@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Fixing link onClick issues">
+    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding in information into the timeline">
+      <change afterPath="$PROJECT_DIR$/src/css/timeline-card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public_images/AAD_VIP.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/public_images/AAD_VIP.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public_images/Sametunes.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/public_images/Sametunes.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public_images/Shipa_Freight.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/public_images/Shipa_Freight.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Timeline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Work.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/resume.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +100,7 @@
       <workItem from="1609844830544" duration="4309000" />
       <workItem from="1610011982130" duration="1293000" />
       <workItem from="1610101936155" duration="785000" />
-      <workItem from="1610102732818" duration="22796000" />
+      <workItem from="1610102732818" duration="24117000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1608197664456</created>
@@ -338,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610283108619</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Adding in information into the timeline">
+      <created>1610285117138</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1610285117138</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +359,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Merging home-page branch into master" />
     <MESSAGE value="Adding email to resume data map" />
     <MESSAGE value="Adding HTML to the contact section" />
     <MESSAGE value="Adding all HTML for the header section" />
@@ -382,6 +383,7 @@
     <MESSAGE value="Chnaging image paths" />
     <MESSAGE value="Adding relevant images to work carousel" />
     <MESSAGE value="Fixing link onClick issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing link onClick issues" />
+    <MESSAGE value="Adding in information into the timeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding in information into the timeline" />
   </component>
 </project>
