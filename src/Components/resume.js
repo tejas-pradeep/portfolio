@@ -87,27 +87,24 @@ let resume = {
     "work" : [
         {
             "employer" : "SameTunes LLC",
-            "position" : "Head of API Design",
+            "position" : "Head of API Design | Co-Founder",
             "description" : "Hello there",
-            "button" : "View More",
-            "button_url" : "www.sametunes.com",
-            "image" : "public_images/tejas_pradeep_profile_pic.jpg"
+            "url" : "http://www.sametunes.com",
+            "image" : "public_images/Sametunes.PNG"
         },
         {
-            "employer" : "SameTunes LLC",
-            "position" : "",
+            "employer" : "Shipa Freight",
+            "position" : "Data Science Intern",
             "description" : "Hello there",
-            "button" : "View More",
-            "button_url" : "www.sametunes.com",
+            "url" : "http://www.shipafreight.com",
             "image" : "public_images/Shipa_Freight.PNG"
         },
         {
-            "employer" : "SameTunes LLC",
-            "position" : "",
+            "employer" : "Automated Algorithm Design",
+            "position" : "Undergraduate Research Assistant",
             "description" : "Hello there",
-            "button" : "View More",
-            "button_url" : "www.sametunes.com",
-            "image" : "public_images/Shipa_Freight.PNG"
+            "url" : "https://www.vip.gatech.edu/teams/automated-algorithm-design",
+            "image" : "public_images/AAD_VIP.PNG"
         }
     ],
     "timelineData" : [

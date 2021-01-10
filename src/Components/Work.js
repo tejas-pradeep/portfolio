@@ -34,7 +34,7 @@ function Work({resumeData}) {
                                             </div>
                                             <div className="is-item has--content">
                                                 <div className="is-item--inner">
-                                                    <h1><span>{item.employer}</span></h1>
+                                                    <h1 onClick={window.location.href = item.url}><span>{item.employer}</span></h1>
                                                     <small>{item.position}</small>
                                                     <p>{item.description}</p>
                                                 </div>
