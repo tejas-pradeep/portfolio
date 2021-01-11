@@ -149,7 +149,7 @@ let resume = {
                 "color": "#ef8110"
             },
             "link" : {url:"https://www.cc.gatech.edu/~stasko/1331/", text:"CS 1331 - Object Oriented Programming"},
-            "image_url" : "public_images/java.PNG"
+            "image_url" : "public_images/java.png"
         },
         {
             "title" : "SameTunes LLC",
