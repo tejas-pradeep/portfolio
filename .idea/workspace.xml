@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding in information into the timeline">
-      <change afterPath="$PROJECT_DIR$/src/css/timeline-card.css" afterDir="false" />
+    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding new timeline cards in">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Timeline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/resume.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,8 @@
       <workItem from="1609844830544" duration="4309000" />
       <workItem from="1610011982130" duration="1293000" />
       <workItem from="1610101936155" duration="785000" />
-      <workItem from="1610102732818" duration="24117000" />
+      <workItem from="1610102732818" duration="24828000" />
+      <workItem from="1610374790464" duration="1116000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1608197664456</created>
@@ -340,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610285117138</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Adding new timeline cards in">
+      <created>1610286554726</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1610286554726</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +366,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding email to resume data map" />
     <MESSAGE value="Adding HTML to the contact section" />
     <MESSAGE value="Adding all HTML for the header section" />
     <MESSAGE value="Adding in default CSS that applies to all pages." />
@@ -384,6 +390,7 @@
     <MESSAGE value="Adding relevant images to work carousel" />
     <MESSAGE value="Fixing link onClick issues" />
     <MESSAGE value="Adding in information into the timeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding in information into the timeline" />
+    <MESSAGE value="Adding new timeline cards in" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding new timeline cards in" />
   </component>
 </project>

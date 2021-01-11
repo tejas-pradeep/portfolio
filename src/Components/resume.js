@@ -88,21 +88,31 @@ let resume = {
         {
             "employer" : "SameTunes LLC",
             "position" : "Head of API Design | Co-Founder",
-            "description" : "Hello there",
+            "description" : "Co-founding member of SameTunes LLC, a startup from Georgia Tech’s Create-X program. An online\n" +
+                "portal for music compatibility driven through robust algorithm based interests match, SameTunes gained\n" +
+                "over 9k users at launch. \n Analysed user stats using Spotify's API. \nFull Stack Development on critical components of the website. \n" +
+                "Coordinated a team of four developers to create back end schema and related database structures.\nFront-end: Bootstrap & CSS, Backend: server-side scripting using php, and database management: MYSQL",
             "url" : "http://www.sametunes.com",
             "image" : "public_images/Sametunes.PNG"
         },
         {
             "employer" : "Shipa Freight",
             "position" : "Data Science Intern",
-            "description" : "Hello there",
+            "description" : "Interned at a start-up digital freight forwarder, focused on online freight solutions in the emerging markets.\n" +
+                "Provided insights to the sales team on customer behavior through data analysis on customer data.\n" +
+                "Feature engineering using pandas, matplotlib, & numpy on large data sets to create meaningful trends.\n" +
+                "Predictive analysis using machine learning along with clustering to help product positioning and marketing",
             "url" : "http://www.shipafreight.com",
             "image" : "public_images/Shipa_Freight.PNG"
         },
         {
             "employer" : "Automated Algorithm Design",
             "position" : "Undergraduate Research Assistant",
-            "description" : "Hello there",
+            "description" : "Automated Algorithm Design | Natural language processing using genetic algorithms.| Project sponsored\n" +
+                "by Google.\n" +
+                "Implemented genetic learning on Automated Algorithm Design using machine learning.\n" +
+                "Created algorithms for natural language processing to analyze sentiment data from IMDB reviews.\n" +
+                "Analyzed NHS Chest X-Ray data to accurately predict the onset of diseases.",
             "url" : "https://www.vip.gatech.edu/teams/automated-algorithm-design",
             "image" : "public_images/AAD_VIP.PNG"
         }
