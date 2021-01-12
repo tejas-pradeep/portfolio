@@ -71,6 +71,7 @@
         line-height: 66px;
     }
 
+
     /* Contact Section
     ------------------------------------------------------------------- */
     #contact .section-head { margin-bottom: 30px; }
@@ -87,6 +88,13 @@
 ---------------------------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
+    .columns {
+        max-height: 550px;
+        overflow: scroll;
+    }
+    .circle {
+        right: -50px !important;
+    }
 
     /* mobile navigation
     -------------------------------------------------------------------- */
@@ -247,10 +255,12 @@
     .popup-modal {	max-width: 85%; }
 
 
-    /* Work Section
-    ----------------------------------------------------------------------- */
-    #work {
+    /*Work Section*/
+    .work-bg {
         display: none;
+    }
+    .work-sm {
+        display: block;
     }
 
 

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Fixing issue with java.png">
+    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding package for scroll header current highlighting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Work.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/media-queries.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +103,7 @@
       <workItem from="1610101936155" duration="785000" />
       <workItem from="1610102732818" duration="24828000" />
       <workItem from="1610374790464" duration="2552000" />
-      <workItem from="1610458079274" duration="2303000" />
+      <workItem from="1610458079274" duration="5862000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1608197664456</created>
@@ -367,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610387037722</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Adding package for scroll header current highlighting">
+      <created>1610461945317</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1610461945317</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +390,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding in default CSS that applies to all pages." />
     <MESSAGE value="installing font-awesome and fontello" />
     <MESSAGE value="Adding in custom fonts and more fonts in font.css" />
     <MESSAGE value="Adding CSS for components" />
@@ -411,6 +414,7 @@
     <MESSAGE value="Adding new timeline cards in" />
     <MESSAGE value="Adding content to work experience carousel" />
     <MESSAGE value="Fixing issue with java.png" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing issue with java.png" />
+    <MESSAGE value="Adding package for scroll header current highlighting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding package for scroll header current highlighting" />
   </component>
 </project>

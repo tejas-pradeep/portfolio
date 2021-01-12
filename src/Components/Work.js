@@ -6,13 +6,19 @@ import "../css/slider.css";
 
 function Work({resumeData}) {
     React.useEffect(() => {
-        let slideEl = $(".slide--parent");
-        let flickity = new Flickity('.slide--parent', {
-            imagesLoaded: true,
-            wrapAround: true,
-            // autoPlay: true,
-            adaptiveHeight : true
-        });
+        const window_width = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+        if(window_width > 920) {
+            let slideEl = $(".slide--parent");
+            let flickity = new Flickity('.slide--parent', {
+                imagesLoaded: true,
+                wrapAround: true,
+                // autoPlay: true,
+                adaptiveHeight : true
+            });
+        } else {
+
+
+        }
     }, []);
     return (
         <section id={"work"} className={"main-content"}>
@@ -20,7 +26,7 @@ function Work({resumeData}) {
                 <div className={"three columns header-col"}>
                     <h1><span>Work Experience</span></h1>
                 </div>
-                <div className={"nine columns main-col"}>
+                <div className={"nine columns main-col work-bg"}>
                     <div className="slide--parent">
                         {
                             resumeData.work && resumeData.work.map((item) => {
@@ -45,6 +51,22 @@ function Work({resumeData}) {
                             })
                         }
                     </div>
+                </div>
+                <div className={"nine columns work-sm"}>
+                    {
+                        resumeData.work && resumeData.work.map((data) => {
+                            return (
+                                <div className="timeline-card">
+                                    <img src={process.env.PUBLIC_URL + "/" + data.image} alt=""/>
+                                    <div className="container">
+                                        <h2><b>{data.employer}</b></h2>
+                                        <small>{data.position}</small>
+                                        <p>{data.description}</p>
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
                 </div>
             </div>
 
