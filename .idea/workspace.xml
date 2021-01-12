@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding new timeline cards in">
+    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Fixing issue with java.png">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/resume.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Work.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/default.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +105,8 @@
       <workItem from="1610011982130" duration="1293000" />
       <workItem from="1610101936155" duration="785000" />
       <workItem from="1610102732818" duration="24828000" />
-      <workItem from="1610374790464" duration="1116000" />
+      <workItem from="1610374790464" duration="2552000" />
+      <workItem from="1610458079274" duration="2303000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1608197664456</created>
@@ -347,7 +353,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610286554726</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Adding content to work experience carousel">
+      <created>1610386839298</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1610386839298</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Fixing issue with java.png">
+      <created>1610387037722</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1610387037722</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,8 +386,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding HTML to the contact section" />
-    <MESSAGE value="Adding all HTML for the header section" />
     <MESSAGE value="Adding in default CSS that applies to all pages." />
     <MESSAGE value="installing font-awesome and fontello" />
     <MESSAGE value="Adding in custom fonts and more fonts in font.css" />
@@ -391,6 +409,8 @@
     <MESSAGE value="Fixing link onClick issues" />
     <MESSAGE value="Adding in information into the timeline" />
     <MESSAGE value="Adding new timeline cards in" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding new timeline cards in" />
+    <MESSAGE value="Adding content to work experience carousel" />
+    <MESSAGE value="Fixing issue with java.png" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing issue with java.png" />
   </component>
 </project>
