@@ -103,7 +103,7 @@ let resume = {
                 "Feature engineering using pandas, matplotlib, & numpy on large data sets to create meaningful trends.\n" +
                 "Predictive analysis using machine learning along with clustering to help product positioning and marketing",
             "url" : "http://www.shipafreight.com",
-            "image" : "public_images/Shipa_Freight.PNG"
+            "image" : "public_images/Shipa_Freight.png"
         },
         {
             "employer" : "Automated Algorithm Design",
@@ -127,7 +127,7 @@ let resume = {
                 "color": "#018f69"
             },
             "link" : {url:"https://www.shipafreight.com/", text : "Shipa Freight"},
-            "image_url" : "public_images/Shipa_Freight.PNG"
+            "image_url" : "public_images/Shipa_Freight.png"
         },
         {
             "title" : "Automated Algorithm Design Research Project",
