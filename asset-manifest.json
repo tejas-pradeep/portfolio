@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.aa633f61.chunk.css",
-    "main.js": "/portfolio/static/js/main.fd67f684.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.fd67f684.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.f16c9fc2.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f16c9fc2.js.map",
+    "main.css": "/portfolio/static/css/main.65e0b03b.chunk.css",
+    "main.js": "/portfolio/static/js/main.6efc7254.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6efc7254.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.2701fd1a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2701fd1a.js.map",
     "static/css/2.c296896e.chunk.css": "/portfolio/static/css/2.c296896e.chunk.css",
-    "static/js/2.e850a919.chunk.js": "/portfolio/static/js/2.e850a919.chunk.js",
-    "static/js/2.e850a919.chunk.js.map": "/portfolio/static/js/2.e850a919.chunk.js.map",
-    "static/js/3.fb118b74.chunk.js": "/portfolio/static/js/3.fb118b74.chunk.js",
-    "static/js/3.fb118b74.chunk.js.map": "/portfolio/static/js/3.fb118b74.chunk.js.map",
+    "static/js/2.16cf2949.chunk.js": "/portfolio/static/js/2.16cf2949.chunk.js",
+    "static/js/2.16cf2949.chunk.js.map": "/portfolio/static/js/2.16cf2949.chunk.js.map",
+    "static/js/3.bcdb4611.chunk.js": "/portfolio/static/js/3.bcdb4611.chunk.js",
+    "static/js/3.bcdb4611.chunk.js.map": "/portfolio/static/js/3.bcdb4611.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.c296896e.chunk.css.map": "/portfolio/static/css/2.c296896e.chunk.css.map",
-    "static/css/main.aa633f61.chunk.css.map": "/portfolio/static/css/main.aa633f61.chunk.css.map",
-    "static/js/2.e850a919.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e850a919.chunk.js.LICENSE.txt",
+    "static/css/main.65e0b03b.chunk.css.map": "/portfolio/static/css/main.65e0b03b.chunk.css.map",
+    "static/js/2.16cf2949.chunk.js.LICENSE.txt": "/portfolio/static/js/2.16cf2949.chunk.js.LICENSE.txt",
     "static/media/default.css": "/portfolio/static/media/librebaskerville-regular-webfont.c5950393.ttf",
     "static/media/layout.css": "/portfolio/static/media/background-image.1febc9d6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f16c9fc2.js",
+    "static/js/runtime-main.2701fd1a.js",
     "static/css/2.c296896e.chunk.css",
-    "static/js/2.e850a919.chunk.js",
-    "static/css/main.aa633f61.chunk.css",
-    "static/js/main.fd67f684.chunk.js"
+    "static/js/2.16cf2949.chunk.js",
+    "static/css/main.65e0b03b.chunk.css",
+    "static/js/main.6efc7254.chunk.js"
   ]
 }
