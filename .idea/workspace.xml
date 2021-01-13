@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding open graph image" />
+    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding description" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +99,7 @@
       <workItem from="1610102732818" duration="24828000" />
       <workItem from="1610374790464" duration="2552000" />
       <workItem from="1610458079274" duration="6941000" />
-      <workItem from="1610557832438" duration="1061000" />
+      <workItem from="1610557832438" duration="1379000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1608197664456</created>
@@ -395,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610558260069</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Adding description">
+      <created>1610560571849</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1610560571849</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +421,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix to download resume link" />
     <MESSAGE value="Html added for Footer.js" />
     <MESSAGE value="Adding in HTML and CSS for the skills section" />
     <MESSAGE value="Adding in HTML and CSS for the About.js section" />
@@ -439,6 +445,7 @@
     <MESSAGE value="Adding new shipa freight image" />
     <MESSAGE value="Changing image type" />
     <MESSAGE value="Adding open graph image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding open graph image" />
+    <MESSAGE value="Adding description" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding description" />
   </component>
 </project>
