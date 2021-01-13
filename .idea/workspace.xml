@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Adding in mobile work section">
-      <change beforePath="$PROJECT_DIR$/public/public_images/Shipa_Freight.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/public_images/Shipa_Freight.PNG" afterDir="false" />
+    <list default="true" id="39583f0a-3245-41e5-97c4-0bce8c3b607f" name="Default Changelist" comment="Changing image type">
+      <change afterPath="$PROJECT_DIR$/public/public_images/og_image.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +102,8 @@
       <workItem from="1610101936155" duration="785000" />
       <workItem from="1610102732818" duration="24828000" />
       <workItem from="1610374790464" duration="2552000" />
-      <workItem from="1610458079274" duration="6638000" />
+      <workItem from="1610458079274" duration="6941000" />
+      <workItem from="1610557832438" duration="328000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1608197664456</created>
@@ -375,7 +378,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610467709987</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Adding new shipa freight image">
+      <created>1610468393093</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1610468393093</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Changing image type">
+      <created>1610468554058</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1610468554058</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,8 +411,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding in custom fonts and more fonts in font.css" />
-    <MESSAGE value="Adding CSS for components" />
     <MESSAGE value="Reorganized project structure to maximize inbuilt minify" />
     <MESSAGE value="Fix to download resume link" />
     <MESSAGE value="Html added for Footer.js" />
@@ -419,6 +434,8 @@
     <MESSAGE value="Fixing issue with java.png" />
     <MESSAGE value="Adding package for scroll header current highlighting" />
     <MESSAGE value="Adding in mobile work section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding in mobile work section" />
+    <MESSAGE value="Adding new shipa freight image" />
+    <MESSAGE value="Changing image type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing image type" />
   </component>
 </project>
