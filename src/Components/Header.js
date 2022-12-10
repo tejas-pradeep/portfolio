@@ -9,6 +9,9 @@ export default class Header extends Component {
            e.target.className = "current";
 
        }
+       function handleDownload(e) {
+           window.open("https://drive.google.com/uc?export=download&id=13XJSIR6dbc3weUCD_ooJIEG56lGFmg1m", '_blank')
+       }
        return (
          <React.Fragment>
              <header id={"home"}>
@@ -22,7 +25,7 @@ export default class Header extends Component {
                          <li onClick={handleCurrent}><a href={"#work"}>Work Experience</a></li>
                          <li onClick={handleCurrent}><a href={"#timeline"}>Timeline</a></li>
                          <li onClick={handleCurrent}><a href={"#contact"}>Contact Me!</a></li>
-                         <li onClick={handleCurrent}><a href={process.env.PUBLIC_URL + "/Downloads/Tejas_Pradeep_Resume.pdf"} download={"Tejas_Pradeep_Resume.pdf"}>Download Resume <i className={"fas fa-download"}/></a></li>
+                         <li onClick={handleCurrent}><a href={"#resume"} download={"Tejas_Rajamadam_Pradeep_Resume.pdf"}>Resume</a></li>
                      </ul>
                  </nav>
                  <div className={"row banner"}>

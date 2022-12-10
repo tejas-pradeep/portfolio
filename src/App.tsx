@@ -8,6 +8,7 @@ import Timeline from "./Components/Timeline";
 import Work from "./Components/Work";
 import Footer from "./Components/Footer";
 import resume from "./Components/resume";
+import Resume_Component from "./Components/Resume_Component";
 import './App.css';
 import "./css/default.css";
 import "./css/layout.css";
@@ -25,6 +26,7 @@ function App() {
           <About resumeData = {resume}/>
           <Skills resumeData={resume}/>
           <Work resumeData={resume}/>
+          <Resume_Component/>
           <Timeline resumeData={resume}/>
           <Contact/>
           <Footer resumeData = {resume}/>
