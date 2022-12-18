@@ -170,7 +170,7 @@ let resume = {
                 "color": "#018f69"
             },
             "link" : {url:"https://www.twitter.com", text:"Twitter Inc"},
-            "image_url" : "public_images/tweet.PNG"
+            "image_url" : "public_images/tweet.png"
         },
         {
             "title" : "TA: Design and Analysis of Algorithms",
