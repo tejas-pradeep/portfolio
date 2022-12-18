@@ -115,7 +115,7 @@ let resume = {
                 "Leveraged PHP Symfony’s features to enhance the existing code base to a more modern design.\n" +
                 "Collaborated with a team of 5 engineers to make the design more agile & flexible.",
             "url" : "http://www.twitter.com",
-            "image" : "public_images/tweet.PNG"
+            "image" : "public_images/tweet.png"
         },
         {
             "employer" : "SameTunes LLC",
